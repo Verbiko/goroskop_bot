@@ -30,7 +30,7 @@ def get_scorp(message):
     if message.text == 'гороскоп' or message.text == 'Гороскоп':
         bot.send_message(message.chat.id, clear_text)
     else:
-        bot.send_message(message.chat.id, 'Что-то пошло не так... Попробуй еще раз')
+        bot.send_message(message.chat.id, 'Что-то пошло не так... Попробуйте еще раз')
 
 #зацикливаем бота, запускаем на постоянное выполнение
 bot.polling(none_stop=True)
